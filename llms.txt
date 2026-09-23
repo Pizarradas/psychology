@@ -1,0 +1,35 @@
+# Atención humana
+
+> Base de conocimiento en español sobre la psicología cognitiva de la atención humana, con niveles de evidencia y citas a estudios revisados por pares. Diseñada como contexto para modelos de IA.
+
+Lee primero la guía para IA: define las reglas de uso y las etiquetas de evidencia ([A], [B], [C], [MITO], [INFERENCIA]). Para cargar todo de una vez, usa dist/contexto-completo.md.
+
+## Instrucciones
+
+- [Guía para la IA](knowledge/00-guia-ia/guia-para-ia.md): reglas, mitos a corregir y plantilla de respuesta
+
+## Fundamentos
+
+- [Glosario](knowledge/01-fundamentos/glosario.md): definiciones con término en inglés
+- [Mapa conceptual](knowledge/01-fundamentos/mapa-conceptual.md): relaciones entre conceptos
+
+## Conceptos
+
+- [Modelos generales](knowledge/02-conceptos/01-modelos-generales.md): redes atencionales, control voluntario frente a captura
+- [Atención selectiva](knowledge/02-conceptos/02-atencion-selectiva.md): filtro, integración de rasgos, competencia sesgada, teoría de la carga
+- [Límites de capacidad](knowledge/02-conceptos/03-limites-de-capacidad.md): ceguera atencional, parpadeo atencional, doble tarea
+- [Atención sostenida](knowledge/02-conceptos/04-atencion-sostenida.md): vigilancia, fluctuaciones, mente errante
+- [Multitarea y mitos](knowledge/02-conceptos/05-multitarea-y-mitos.md): multitarea mediática, capacidad de atención
+
+## Aplicaciones
+
+- [Aplicaciones](knowledge/03-aplicaciones/aplicaciones.md): UX/UI, motion design, aprendizaje, productividad
+
+## Fuentes
+
+- [Bibliografía](knowledge/04-fuentes/bibliografia.md): referencias APA con enlaces
+
+## Opcional
+
+- [Contexto completo](dist/contexto-completo.md): todo el contenido en un solo archivo
+- [Índice JSON](dist/indice.json): metadatos para RAG

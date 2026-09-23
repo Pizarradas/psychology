@@ -1,0 +1,25 @@
+{
+  "name": "atencion-humana",
+  "version": "1.0.0",
+  "description": "Base de conocimiento en Markdown sobre la psicología de la atención humana, diseñada como contexto para IA.",
+  "private": true,
+  "type": "module",
+  "license": "CC-BY-4.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "validate": "node scripts/validar.mjs",
+    "build": "node scripts/generar.mjs",
+    "check": "npm run validate && npm run build"
+  },
+  "keywords": [
+    "atencion",
+    "psicologia-cognitiva",
+    "neurociencia",
+    "knowledge-base",
+    "rag",
+    "llm-context",
+    "ux"
+  ]
+}

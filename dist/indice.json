@@ -1,0 +1,226 @@
+{
+  "nombre": "atencion-humana",
+  "generado": "2026-09-23",
+  "documentos": [
+    {
+      "id": "guia-para-ia",
+      "titulo": "Guía de uso para la IA",
+      "tipo": "instrucciones",
+      "ruta": "knowledge/00-guia-ia/guia-para-ia.md",
+      "tags": [
+        "prompt-sistema",
+        "evidencia",
+        "reglas"
+      ],
+      "relacionados": [
+        "bibliografia"
+      ],
+      "fuentes_clave": [],
+      "palabras": 453
+    },
+    {
+      "id": "glosario",
+      "titulo": "Glosario",
+      "tipo": "glosario",
+      "ruta": "knowledge/01-fundamentos/glosario.md",
+      "tags": [
+        "definiciones",
+        "terminologia"
+      ],
+      "relacionados": [
+        "mapa-conceptual"
+      ],
+      "fuentes_clave": [],
+      "palabras": 438
+    },
+    {
+      "id": "mapa-conceptual",
+      "titulo": "Mapa conceptual de la atención",
+      "tipo": "mapa",
+      "ruta": "knowledge/01-fundamentos/mapa-conceptual.md",
+      "tags": [
+        "relaciones",
+        "diagrama",
+        "ontologia"
+      ],
+      "relacionados": [
+        "glosario"
+      ],
+      "fuentes_clave": [],
+      "palabras": 328
+    },
+    {
+      "id": "modelos-generales",
+      "titulo": "Modelos generales de la atención",
+      "tipo": "concepto",
+      "ruta": "knowledge/02-conceptos/01-modelos-generales.md",
+      "tags": [
+        "redes-atencionales",
+        "posner",
+        "corbetta",
+        "top-down",
+        "bottom-up",
+        "neurociencia"
+      ],
+      "relacionados": [
+        "atencion-selectiva",
+        "atencion-sostenida",
+        "glosario"
+      ],
+      "fuentes_clave": [
+        "Posner1990",
+        "Petersen2012",
+        "Fan2002",
+        "Corbetta2002",
+        "Awh2012"
+      ],
+      "palabras": 475
+    },
+    {
+      "id": "atencion-selectiva",
+      "titulo": "Atención selectiva",
+      "tipo": "concepto",
+      "ruta": "knowledge/02-conceptos/02-atencion-selectiva.md",
+      "tags": [
+        "filtro",
+        "cocktail-party",
+        "busqueda-visual",
+        "integracion-rasgos",
+        "competencia-sesgada",
+        "carga-perceptiva",
+        "distraccion"
+      ],
+      "relacionados": [
+        "modelos-generales",
+        "limites-de-capacidad",
+        "aplicaciones"
+      ],
+      "fuentes_clave": [
+        "Cherry1953",
+        "Broadbent1958",
+        "Lachter2004",
+        "Posner1980",
+        "Treisman1980",
+        "Beck2009",
+        "Lavie2014",
+        "Murphy2016"
+      ],
+      "palabras": 592
+    },
+    {
+      "id": "limites-de-capacidad",
+      "titulo": "Límites de capacidad",
+      "tipo": "concepto",
+      "ruta": "knowledge/02-conceptos/03-limites-de-capacidad.md",
+      "tags": [
+        "ceguera-atencional",
+        "parpadeo-atencional",
+        "doble-tarea",
+        "cuello-de-botella",
+        "capacidad-limitada"
+      ],
+      "relacionados": [
+        "atencion-selectiva",
+        "multitarea-y-mitos",
+        "aplicaciones"
+      ],
+      "fuentes_clave": [
+        "Simons1999",
+        "Raymond1992",
+        "Pashler1994"
+      ],
+      "palabras": 372
+    },
+    {
+      "id": "atencion-sostenida",
+      "titulo": "Atención sostenida y mente errante",
+      "tipo": "concepto",
+      "ruta": "knowledge/02-conceptos/04-atencion-sostenida.md",
+      "tags": [
+        "vigilancia",
+        "fatiga",
+        "fluctuaciones",
+        "mente-errante",
+        "concentracion",
+        "bienestar"
+      ],
+      "relacionados": [
+        "modelos-generales",
+        "multitarea-y-mitos",
+        "aplicaciones"
+      ],
+      "fuentes_clave": [
+        "Mackworth1948",
+        "Langner2013",
+        "Thomson2015",
+        "Esterman2019",
+        "Killingsworth2010"
+      ],
+      "palabras": 422
+    },
+    {
+      "id": "multitarea-y-mitos",
+      "titulo": "Multitarea y mitos sobre la atención",
+      "tipo": "concepto",
+      "ruta": "knowledge/02-conceptos/05-multitarea-y-mitos.md",
+      "tags": [
+        "multitarea",
+        "pantallas",
+        "mitos",
+        "capacidad-de-atencion",
+        "educacion"
+      ],
+      "relacionados": [
+        "limites-de-capacidad",
+        "atencion-sostenida",
+        "guia-para-ia"
+      ],
+      "fuentes_clave": [
+        "Pashler1994",
+        "Ophir2009",
+        "Uncapher2018",
+        "Bradbury2016"
+      ],
+      "palabras": 347
+    },
+    {
+      "id": "aplicaciones",
+      "titulo": "Aplicaciones prácticas",
+      "tipo": "aplicacion",
+      "ruta": "knowledge/03-aplicaciones/aplicaciones.md",
+      "tags": [
+        "ux",
+        "ui",
+        "motion-design",
+        "notificaciones",
+        "aprendizaje",
+        "productividad",
+        "diseno"
+      ],
+      "relacionados": [
+        "atencion-selectiva",
+        "limites-de-capacidad",
+        "atencion-sostenida",
+        "multitarea-y-mitos"
+      ],
+      "fuentes_clave": [],
+      "palabras": 575
+    },
+    {
+      "id": "bibliografia",
+      "titulo": "Bibliografía (APA 7)",
+      "tipo": "fuentes",
+      "ruta": "knowledge/04-fuentes/bibliografia.md",
+      "tags": [
+        "referencias",
+        "apa",
+        "citas"
+      ],
+      "relacionados": [
+        "guia-para-ia"
+      ],
+      "fuentes_clave": [],
+      "palabras": 741
+    }
+  ]
+}
